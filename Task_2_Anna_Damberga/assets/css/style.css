@@ -32,10 +32,9 @@ li {
 #mainLogo{
     position: absolute;
     width: 159px;
-    height: 96px;
+    height: 98px;
     left: 62px;
     top: 0px;
-    max-width: 100%;
 }
 
 #mala {
