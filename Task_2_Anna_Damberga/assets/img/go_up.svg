@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="go_up.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74118967"
+     inkscape:cx="641.53619"
+     inkscape:cy="503.91959"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     sodipodi:insensitive="true">
+    <circle
+       style="opacity:1;fill:#ffa800;fill-opacity:1;fill-rule:evenodd;stroke-width:0.264583"
+       id="path33"
+       cx="94.597359"
+       cy="151.35576"
+       r="53.902645" />
+  </g>
+  <path
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:1.34918"
+     d="m 307.04549,596.90074 c 0.0647,-1.57172 0.38444,-1.89142 0.81513,-0.81513 0.38974,0.97394 0.34181,2.13761 -0.10651,2.58593 -0.44832,0.44833 -0.7672,-0.34854 -0.70862,-1.7708 z"
+     id="path4964"
+     transform="scale(0.26458333)" />
+  <path
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:0.339981"
+     d="m 93.002648,185.01674 -9.88862,-0.0943 0.206924,-18.60738 c 0.201843,-18.15024 0.190754,-18.60853 -0.451329,-18.65414 -0.362044,-0.0257 -4.476762,-0.13891 -9.143822,-0.25152 l -8.48556,-0.20475 9.813811,-11.23456 c 15.724801,-18.0013 20.110451,-22.85124 20.538211,-22.71251 0.499204,0.16192 4.842437,5.18764 18.758677,21.70642 l 10.87716,12.91137 -9.70929,0.20118 c -5.34011,0.11065 -9.82306,0.31178 -9.9621,0.44696 -0.13904,0.13517 -0.30519,8.45797 -0.36924,18.49514 l -0.11646,18.24938 -1.08987,-0.0786 c -0.59943,-0.0432 -5.53975,-0.12093 -10.978492,-0.17279 z"
+     id="path5042" />
+</svg>
