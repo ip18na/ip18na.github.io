@@ -1034,28 +1034,21 @@ footer {
     #container_teikums {
         width: 130px;
         height: 44px;
-        margin-top: 6%;
-        margin-left: -7%;
     }
 
     #container_sem {
         width: 131px;
         height: 51px;
-        margin-top: 5%;
     }
 
     #container_citybee {
         width: 131px;
         height: 44px;
-        margin-top: 7%;
-        margin-left: -4%;
     }
 
     #container_linearis {
         width: 48px;
         height: 67px;
-        margin-top: 10%;
-        margin-left: 9%;
     }
 
     footer {
@@ -1127,7 +1120,7 @@ footer {
         margin-top: 13.6%;
     }
 
-    valoda a {
+    .valoda a {
         margin: 5.6%;
     }
 
