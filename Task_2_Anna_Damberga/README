@@ -1,0 +1,18 @@
+Darbs tika veidots "no scratch", neizmantojot Bootstrap.
+
+---- Laiks -----
+Iespējamais / aptuvenais laiks - 32 stundas (var būt vairāk, var būt mazāk). Bieži nācās novērsties pie citiem darbiem un precīzs laika uzskaits tika sajaukts. 
+No sākuma man šis darbs progresēja ļoti lēni, bet pēc tam uzzināju jaunas funkcijas un paņēmienus, kas paātrināja procesu. Ja man būtu vēlreiz jāveido šis darbs, tad man iespējams tas aizņemtu daudz mazāk laika.
+
+---- Pārlūkprogrammas ----
+Darbojas uz:
+
+Google Crome
+Microsoft Edge
+Opera
+Mozilla Firefox
+
+---- Responsivitāte un Pixel Perfect ----
+Lielumi tika ņemti no Figma parauga un pārveidoti procentos. Procentu lielumi arī mainās atkarībā no ekrāna platuma.
+Pārklājot ar parauga attēlu, dažas vietas var kaut cik sakrist tikai specifiskos izmēros, jo lielumi mainās līdz ar ekrānu. Precīzi precizitāti ir grūti noteikt, jo lielumi uz attēla atšķiras no dotajiem lielumiem.
+Iespējams pie precizitātes vajag piestrādāt.

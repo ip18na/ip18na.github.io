@@ -1,0 +1,1134 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+h2, h3 {
+    font-family: oswald, sans-serif;
+    color: #2F4858;
+    font-style: normal;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 44px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 35.57px;
+}
+
+/* Header */ 
+
+.menu{
+    position: absolute;
+    width: 100%; 
+    top: 0px;
+    z-index: 1;
+}
+
+#mala {
+    position: absolute;
+    width: 100%;
+}
+
+/* Navigācija */
+
+.nav {
+    margin-left: 16.27%;
+}
+
+#nav_icon {
+    display: none;
+}
+
+#close_nav {
+    display: none;
+}
+
+.nav li {
+    float: left;
+    padding-left: 3.85%;
+    margin-top: 3.5%;
+}
+
+.nav a {
+    position: relative;
+    font-family: montserrat-medium, sans-serif; 
+    text-decoration: none;
+    color: #060606;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    font-weight: 600;
+    border-bottom: #ffa800 solid 3px ;
+}
+
+.valoda {
+    border: none;
+    background-color: transparent;
+    appearance: none;
+}
+
+.other_lang {
+    display:none;
+}
+
+/* Logo */
+
+#mainLogo{
+    position: absolute;
+    width: 11.65%;
+    left: 4.54%;
+    top: 0px;
+    z-index: 1;
+}
+ 
+/* Video */
+
+.video {
+    position: relative;
+    width:100%;
+    margin-top: 3.45%;
+}
+
+#thumbnail {
+    width: 100%;
+}
+
+#play {
+    position: absolute;
+    width: 9.2%;
+    left: 0;
+    top: 0.6%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/* Teksts/apraksts */
+
+.text{
+    width: 100%; 
+    text-align: center;
+    margin-top: 11%; 
+    margin-bottom: 11.5%;
+} 
+
+#desc {
+    position: relative;
+    left: 26.2%;
+    width: 47.9%;
+    color: #2F4858;
+    font-size: 18px;
+    font-family: Montserrat-regular, sans-serif;
+}
+
+/* Attēli */
+
+.bildes {
+    position: relative;
+    width: 100%;
+} 
+
+#mala2 {
+    position: absolute;
+    width: 100%;
+    top: -2px;
+    z-index: 1;
+}
+
+#mala3 {
+    position: absolute;
+    width: 100%;
+    margin-top: 24.9%;
+    z-index: 1;
+}
+
+.container_zanda {
+    position: absolute;
+    width: 24.02%;
+}
+
+#Zanda {
+    margin-top: 3.5%;
+    width: 100%;
+}
+
+.container_sibilla {
+    position: absolute;
+    width: 24.45%;
+    left: 24.02%;
+}
+
+#Sibilla {
+   width: 100%;
+   margin-top: 5%;
+}
+
+.collumn {
+    position: absolute;
+    width: 21.82%;
+    right: 29.75%;
+}
+
+#Meita {
+    position: absolute;
+    margin-top: 5.5%;
+    width: 100%;
+}
+
+#Alina {
+    position: absolute;
+    margin-top: 66%;
+    width: 100%;
+}
+
+.container_anda {
+    position: absolute;
+    width: 29.75%;
+    right: 0;
+}
+
+#Anda {
+    width: 100%;
+    margin-top: -0.5%;
+}
+
+/*  piepildīt sapni */
+
+.sapni {
+    width: 100%;
+    margin-top: 49.8%;
+    padding-bottom: 20.4%;
+}
+
+.sapnotajiem {
+    position: relative;
+    width: 44.95%;
+    left: 8%;
+    float: left;
+    text-align: center;
+}
+
+.uznemejiem {
+    position: relative;
+    width: 48.9%;
+    float: right;
+    right: 6.2%;
+    text-align: center;
+}
+
+/* Pogas pie "piepildīt sapni" */
+
+.button {
+    background-color: #FFA800;
+    width: 233px;
+    height: 50px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    font-family: Montserrat-regular, sans-serif;
+}
+
+.button:hover { 
+    background-color: #FFDA16;
+}
+
+.button:active { 
+    background-color: #FF8A00;
+}
+
+/*  Forma */
+
+.sazina {
+    position: relative;
+    width: 44.7%;
+    text-align: center;
+    left: 27.6%;
+}
+
+#sazinaForm {
+    padding-top: 2.1%;
+}
+
+.mainForm {
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+    border: none;
+    height: 41px;
+    width: 48%;
+    font-family: Montserrat-regular, sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.015em;
+    color: #2F4858;
+}
+
+#sazinaform::placeholder {
+    padding-left: 5%;
+}
+
+#name {
+    float: left;
+    margin-bottom: 2.5%;
+}
+
+#email {
+    float: right;
+}
+
+#phone {
+    width: 99.5%;
+}
+
+#message {
+    width: 99.5%;
+    height: 230px;
+    margin-top: 2.5%;
+}
+
+.afterForm {
+    position: relative;
+    text-align: left;
+    width: 100%;
+}
+
+#notice {
+    font-family: Montserrat-regular, sans-serif;
+    font-size: 14px;
+    color: #2F4858;
+    margin-top: 1.7%;
+    margin-bottom: 5.6%;
+}
+
+#check {
+    background: #E7E7E7;
+    border-radius: 3px;
+    position: absolute;
+}
+
+#agreement {
+    font-family: montserrat-regular, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F4858;
+    height: 39px;
+    width: 94%;
+    padding-left: 6.5%;
+    float: left;
+    margin-bottom: 6.8%;
+}
+
+/*Sūtīšanas poga*/
+
+.send_button {
+    position: relative;
+    background-color: #FFA800;
+    width: 182px;
+    height: 62px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    font-family: Montserrat-regular, sans-serif;
+    margin-top: 1%;
+}
+
+.send_button:hover { 
+    background-color: #FFDA16;
+}
+
+.send_button:active { 
+    background-color: #FF8A00;
+}
+
+/* atbalstītāji */
+
+.atbalstitaji{
+    background-color: #ffcb66;
+    margin-top: 10.6%;
+}
+
+#ripped_atbalstitaji {
+    position: absolute;
+    width: 100%;
+    margin-top: -0.5%;
+}
+
+#atbalstitaji_pamats {
+    width: 100%;
+    margin-top: 3%;
+    background-color: #ffcb66;
+}
+
+#grid{
+   /* display: grid;
+    grid-template-columns: 12.5% 24% 21.6% 23.7% 17.3%; */
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: -2.8%;
+}
+
+#atbalstitaji_title {
+    width: 100%;
+    height: 29px;
+    text-align: center;
+    margin-top: -30.7%;
+}
+
+#container_teikums {
+    position: relative;
+    width: 242px;
+    height: 80px;
+    margin-top: 6%;
+}
+
+#container_sem{
+    position: relative;
+    width: 209.32px;
+    height: 80px;
+    margin-top: 6.2%;
+}
+
+#container_citybee{
+    position: relative;
+    width: 239px;
+    height: 80px;
+    margin-top: 6%;
+}
+
+#container_linearis {
+    position: relative;
+    width: 84.77px; 
+    height: 120px;
+    margin-top: 6%;
+}
+
+#pagarinajums {
+    height: 131px;
+}
+
+/* footer */
+
+footer {
+    font-family: Montserrat-regular, sans-serif;
+    font-size: 18px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #2F4858;
+}
+
+.footer_main {
+    position: absolute;
+    width: 100%;
+}
+
+#footer_pamats {
+    width: 100%;
+    margin-bottom: -4%;
+    background-color: #ffcb66;
+}
+
+/* footer logo */
+
+.footer_logo {
+    position: absolute;
+    width: 95.45%;
+    margin-top: -18.5%;
+    left: 4.55%;
+}
+
+#golden_logo {
+    width: 13.952%;
+}
+
+#copyright {
+    bottom: -63%;
+    width: 14%;
+    position: absolute;
+    font-size: 14px;
+}
+
+/* footer navigācija */
+
+.bottom_nav {
+    position: absolute;
+    left: 25.2%;
+    margin-top: -19.85%;
+    width: 17%;
+    z-index: 1;
+}
+
+.bottom_nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 22px;
+}
+
+.bottom_nav li {
+    margin-bottom: 12%;
+    margin-left: -0.5%;
+}
+
+/* rekvizīti */
+
+.biedribas_info {
+    position: absolute;
+    width: 20.2%;
+    margin-top: -19%;
+    left: 47%;
+}
+
+.biedriba_numuri {
+    margin-top: -1.5%;
+}
+
+#biedriba_title {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.kontakti {
+    position: absolute;
+    width: 100%;
+    margin-top: -20.3%;
+    right: 4.8%;
+    text-align: right;
+}
+
+#vards {
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 0.8%;
+}
+
+.media {
+    margin-top: 2.3%;
+    position: relative;
+    margin-right: -0.3%;
+    padding-left: 2.11%;
+    margin-bottom: 3.5%;
+}
+
+#privatuma_politika {
+    font-size: 14px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#rekviziti {
+    display: none;
+}
+
+/* fixed anchor poga */
+
+#go_up {
+    display: none;
+    position: sticky;
+    bottom: 0;
+    float: right;
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    z-index: 2;
+    transform: translatey(-65%);
+}
+
+
+/* ekrāna izmaiņas */
+
+/* navigācija */
+
+@media (max-width: 1285px) {
+
+    /* Pārveido navigāciju*/
+
+    .nav {
+        position: relative;
+        text-align: center;
+        transform: translatex(-10%);
+        margin-top: 28.5%;
+    }
+    
+    .nav a {
+        font-size: 24px;
+        line-height: 29px;
+        transition: 0.3s;
+        margin: 3.3%;
+    }
+
+    .nav ul {
+        padding-inline-start: unset;
+    }
+
+    .valoda {
+        position: absolute;
+        top: -20%;
+        text-align: center;
+        width: 100%;
+        transform: translatex(0%);
+    }
+
+    .other_lang {
+        display: inline-block;
+    }
+
+    .valoda a {
+        margin: 7.3%;
+        margin-top: 0.5%;
+    }
+
+    .nav li {
+        float: none;
+        margin-top: 11.3%;
+        padding-left: unset;
+
+    }
+
+    /* navigācijas poga */
+
+    #nav_icon {
+        margin-top: 3%;
+        display: block;
+        width: 3%;
+        position: absolute;
+        right: 5%;
+    }
+
+    #close_nav {
+        display: none;
+        margin-top: 3%;
+        width: 3%;
+        position: absolute;
+        right: 5%;
+        z-index: 2;
+    }
+
+    /* overlay navigācija */
+
+    #overlay_navigation {
+        height: 0%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: white;
+        overflow-y: hidden;
+        transition: 0.5s;
+    }
+}
+
+@media (max-width: 1228px) {
+
+    .biedribas_info {
+        display: none;
+    }
+
+    .bottom_nav {
+        display: none;
+    }
+
+    .footer_logo {
+        width: 88.5%;
+        margin-top: -15%;
+        left: 10%;
+    }
+    
+    #golden_logo {
+        width: 23.84%;
+    }
+
+    #copyright {
+        width: 100%;
+        bottom: -78%;
+        font-size: 16px;
+    }  
+
+    .kontakti {
+        margin-top: -11%;
+        right: 10.5%;
+    }
+    
+    #rekviziti{
+        display: block;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+
+    .media {
+        margin-left: 2%;
+        margin-bottom: 4.5%;
+        margin-top: 3.5%;
+        height: 25px;
+    }
+
+    #vards {
+        position: absolute;
+        text-align: left;
+        left: 23%;
+        top: 91%;
+    }
+
+    footer {
+        padding-bottom: 50.2%;
+    }
+}
+
+@media (max-width: 900px) {
+
+    h3 {
+        font-size: 18px;
+        line-height: 26.68px;
+    }
+
+    .menu {
+        background-color: white;
+    }
+
+    #mala {
+        margin-top: 3%;
+    }
+
+    #mainLogo {
+        width: 16.6%;
+        left: 10.54%;
+    }
+
+    #nav_icon {
+        margin-top: 4.6%;
+        right: 10.5%;
+    }
+
+    .video {
+        margin-top: 9.45%;
+    }
+
+    #play {
+        width: 16.1%;
+    }
+
+    .text {
+        height: 300px;
+        margin-bottom: 7%;
+    }
+
+    #desc {
+        width: 81.55%;
+        height: 62.67%;
+        transform: translate(-21%);
+        top: 22%;
+    }
+
+    .bildes {
+        margin-top: -0.2%;
+    }
+
+    .sapni {
+        margin-top: 57%;
+    }
+
+    .sapnotajiem {
+        left: 3%;
+    }
+
+    .uznemejiem {
+        right: 3%;
+        width: 44.95%;
+    }
+
+    .button {
+        margin-top: 3%;
+    }
+
+    .sazina {
+        margin-top: 17%;
+        left: 0;
+        width: 100%;
+    } 
+
+    #sazinaForm {
+        padding-top: 1.8%;
+    }
+
+    .mainForm {
+        width: 37.76%;
+        height: 40px;
+    }
+
+    #name {
+        margin-bottom: 0;
+        float: none;
+        margin-right: 1%;
+    }
+
+    #email {
+        margin-bottom: 0;
+        float: none;
+        margin-left: 1%;
+    }
+
+    #phone {
+        width: 78.65%;
+        margin-top: 1.5%;
+    }
+    
+    #message {
+        width: 78.65%;
+        height: 230px;
+        margin-top: 2%;
+    }
+
+    .afterForm {
+        left: 11%;
+        width: 80%;
+        margin-left: -0.5%;
+        margin-top: -0.5%;
+    }
+    
+    #notice {
+        margin-bottom: 2%;
+    }
+
+    #agreement {
+        margin-bottom: 5%;
+    }
+
+    .send_button {
+        margin-top: 2.3%;
+    }
+
+    .atbalstitaji {
+        margin-top: 19%;
+    }
+
+    #grid {
+        margin-top: -6.3%;
+        margin-left: -1%;
+    }
+
+    #atbalstitaji_title {
+        font-size: 24px;
+        margin-top: -30%;;
+    }
+    
+    #container_teikums {
+        width: 144px;
+        height: 47px;
+        margin-left: 3%;
+    }
+    
+    #container_sem{
+        width: 123px;
+        height: 47px;
+        margin-left: -2%;
+    }
+    
+    #container_citybee{
+        width: 142px;
+        height: 47px;
+        margin-left: -2%;
+    }
+    
+    #container_linearis {
+        width: 49px; 
+        height: 71px;
+        margin-left: 1%;
+    }
+    
+    .atbalstitaji_logo {
+        position: absolute;
+        height: 100%;
+        width: auto;
+    }
+
+    #pagarinajums {
+        height: 68px;
+    }  
+
+    #vards {
+        position: absolute;
+        text-align: left;
+        left: 21%;
+        top: 57%;
+    }
+}
+
+
+@media (max-width: 660px) {
+
+    h2 {
+        font-size: 24px;
+        line-height: 35.57px;
+    }
+
+    #mainLogo {
+        width: 25.37%;
+        left: 5.54%;
+    }
+
+    #mala {
+        margin-top: 8%;
+    }
+
+    #nav_icon {
+        right: 8%;
+        width: 7%;
+    }
+
+    .video {
+        margin-top: 16.2%;
+    }
+
+    #play {
+        width: 23.1%;
+    }
+
+    .text {
+        height: 197px;
+    }
+
+    #desc {
+        width: 87.55%;
+        font-size: 12px;
+        line-height: 15px;
+        transform: translate(-23%);
+    }
+
+    .bildes {
+        margin-top: 15%;
+    }
+    
+    .collumn {
+        width: 42.5%;
+        left: 0;
+        z-index: -2;
+        top: -1px;
+    }
+
+    .container_anda {
+        width: 57.5%;
+        z-index: -1;
+    }
+
+    .container_zanda {
+        margin-top: 52.2%;
+        width: 52.5%;
+    }
+
+    .container_sibilla {
+        width: 51.6%;
+        left: 48.5%;
+        margin-top: 51.5%;      
+    }
+
+    #mala2 {
+        top: -1px;
+    } 
+
+    #mala3 {
+        margin-top: 107%;
+    }
+
+    .sapni {
+        margin-top: 164.4%;
+    }
+
+    .sapnotajiem {
+        width: 90%;
+        transform: translatex(6%);
+        margin-bottom: 25%;
+        float: none;
+        left: unset;
+    }
+
+    .uznemejiem {
+        width: 90%;
+        transform: translatex(6%);
+        float: none;
+        right: unset;
+    }
+
+    .button {
+        margin-top: -1%;
+    }
+
+    .sazina {
+        margin-top: 17%;
+    }
+
+    #sazinaForm {
+        margin-top: -3%;
+        padding-top: unset;
+    }
+
+    .mainForm {
+        width: 86.25%;
+        height: 33px;
+        font-size: 14px;
+    }
+
+    #name {
+        margin-right: unset;
+        margin-bottom: 1%;
+    }
+
+    #email {
+        margin-left: unset;
+        margin-top: 2%;
+    }
+
+    #phone {
+        width: 86.25%;
+        margin-top: 3%;
+    }
+
+    #message {
+        width: 86.25%;
+        height: 146px;
+        margin-top: 3.5%;
+    }
+
+    .afterForm {
+        font-size: 12px;
+        width: 86.25%;
+        left: 6%;
+        margin-top: 2%;
+    }
+
+    #agreement {
+        font-size: 12px;
+        line-height: 14.63px;
+        width: 89%;
+        margin-left: 7%;
+        margin-top: 3%;
+    }
+
+    .send_button {
+        width: 140px;
+        height: 47.69px;
+        font-size: 18px;
+        margin-top: 18%;
+        margin-bottom: 21.5%;
+    }
+
+    #atbalstitaji_title {
+        margin-top: -15%;
+    }
+
+    #grid {
+        margin-top: 13%;
+    }
+
+    #container_teikums {
+        width: 130px;
+        height: 44px;
+        margin-top: 6%;
+        margin-left: -7%;
+    }
+
+    #container_sem {
+        width: 131px;
+        height: 51px;
+        margin-top: 5%;
+    }
+
+    #container_citybee {
+        width: 131px;
+        height: 44px;
+        margin-top: 7%;
+        margin-left: -4%;
+    }
+
+    #container_linearis {
+        width: 48px;
+        height: 67px;
+        margin-top: 10%;
+        margin-left: 9%;
+    }
+
+    footer {
+        padding-bottom: 150.94%;
+    }
+
+    .footer_logo {
+        margin-top: -9%;
+        left: 6%;
+    }
+    
+    #golden_logo {
+        width: 35.316%;
+    }
+
+    #copyright {
+        width: 100%;
+        bottom: -285%;
+        font-size: 11px;
+    }  
+
+    #privatuma_politika {
+        font-size: 11px;
+        position: absolute;
+        bottom: -30%;
+    }
+
+    .kontakti {
+        margin-top: 44%;
+        font-size: 12px;
+        text-align: left;
+        left: 6%;
+        line-height: 13px;
+        width: unset;
+    }
+    
+    #rekviziti{
+        font-size: 14px;
+    }
+
+    .media {
+        margin-right: 7.5%;
+        margin-top: 16%;
+        left: 0;
+        margin-left: unset;
+    }
+
+    #vards {
+        font-size: 18px;
+        left: 0%;
+        top: -36.5%;
+    }
+
+    #close_nav {
+        margin-top: 5.6%;
+        width: 5%;
+        right: 7.3%;
+    }
+
+    .nav {
+        margin-top: 46.5%;
+    }
+
+    .nav a {
+        font-size: 18px;
+    }
+
+    .nav li {
+        margin-top: 13.6%;
+    }
+
+    valoda a {
+        margin: 5.6%;
+    }
+
+}
