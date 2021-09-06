@@ -276,20 +276,16 @@ h3 {
 .mainForm::placeholder {
     position: absolute;
     margin-left: 2%;
-    margin-top: 2%;
+    transform: translateY(50%);
     color: #2F4858;
 }
 
 #name::placeholder {
-    margin-top: 4%;
+    transform: translateY(50%);
 }
 
 #email::placeholder {
-    margin-top: 3.5%;
-}
-
-#sazinaform::placeholder {
-    padding-left: 5%;
+    transform: translateY(50%);
 }
 
 #name {
@@ -329,7 +325,6 @@ h3 {
     background: #E7E7E7;
     border-radius: 3px;
     position: absolute;
-    left: 0;
 }
 
 #agreement {
