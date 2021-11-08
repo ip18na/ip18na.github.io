@@ -129,7 +129,9 @@
     #kalni-icon {
         float: none;       
         margin-top: -18%;
-        margin-right: 31%;
+        margin-left: 31%;
+        margin-right: unset;
+        width: 37%;
     }
 }
 
@@ -144,6 +146,16 @@
     #kalni-text {
         margin-left: 10.7%;
         margin-top: 4.6%;
+    }
+}
+
+@media (max-width: 660px) {
+    #kalni-text {
+        margin-left: 6.7%;
+        margin-top: 48.6%;
+        width: 87%;
+        float: none;
+        text-align: center;
     }
 }
 
