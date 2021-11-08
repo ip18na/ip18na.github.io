@@ -48,7 +48,7 @@
 
 .grid-item {
     margin: 0.5%;
-    margin-left: 8%;
+    margin-left: 0.8%;
     margin-bottom: 0.8%;
     width: 160px;
     height: 160px;
@@ -194,14 +194,21 @@
 @media (max-width: 900px) {
     .dalibnieki {
         margin-bottom: 7%;
-        width: 121.8%;
+        width: 352px;
     }
 }
 
 .fade {
     position: absolute;
     z-index: 1;
-    margin-left: -289px;
+    margin-left: -290px;
+}
+
+@media (max-width: 900px) {
+    .fade {
+        width: 352px;
+        margin-left: -351px;
+    }
 }
 
 .status {
