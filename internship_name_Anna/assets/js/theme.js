@@ -100,3 +100,14 @@ function checkOpt() {
         document.getElementById("sponsors").style.display = "none";
     }
 }
+
+// Skatīt vairāk
+
+function showRest() {
+    document.getElementById("show-more").style.display = "none";
+    var collapse = document.getElementsByClassName("grid-collapse");
+    var i;
+    for (i = 0; i < collapse.length; i++) {
+        collapse[i].style.display = 'block';
+    }
+}
