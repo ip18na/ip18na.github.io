@@ -104,7 +104,7 @@ function checkOpt() {
 // Skatīt vairāk
 
 function showRest() {
-    document.getElementById("show-more").style.display = "none";
+    document.getElementById("btn-cont").style.display = "none";
     var collapse = document.getElementsByClassName("grid-collapse");
     var i;
     for (i = 0; i < collapse.length; i++) {
