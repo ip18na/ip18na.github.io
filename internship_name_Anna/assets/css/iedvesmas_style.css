@@ -10,6 +10,15 @@
     .iedvesma-title { margin-top: 22%; }
 }
 
+@media (max-width: 500px) {
+    .iedvesma-title { 
+        margin-top: 31%;
+        width: 70%;
+        margin-left: 15%;
+        line-height: 57px; 
+    }
+}
+
 .iedvesma-apraksts {
     margin-top: 4.3%;
     margin-bottom: 10.6%;
@@ -24,6 +33,13 @@
 
 @media (max-width: 900px) {
     .iedvesma-apraksts { margin-top: 6.3%; }
+}
+
+@media (max-width: 500px) {
+    .iedvesma-apraksts { 
+        margin-top: 16.3%;
+        font-size: 18px;
+    }
 }
 
 /* grid */
@@ -43,6 +59,15 @@
         margin: 11%;
         margin-left: 10%;
         margin-bottom: -2%;
+    }
+}
+
+@media (max-width: 500px) {
+    .grid-container {
+        margin: 3%;
+        margin-left: 6%;
+        margin-top: 25%;
+        margin-bottom: 25%;
     }
 }
 
@@ -66,12 +91,20 @@
     .grid-item {
         margin-bottom: 1.78%;
         margin-right: 0.94%;
-        margin-left: unset;
+        margin-left: 0.5%;
         width: 142.69px;
         height: 142.69px;
     }
 }
 
+@media (max-width: 500px) {
+    .grid-item {
+        margin-bottom: 3.78%;
+        margin-right: 2.94%;
+        width: 134.14px;
+        height: 134.14px;
+    }
+}
 
 .grid-num {
     position: absolute;
@@ -83,7 +116,14 @@
 @media (max-width: 900px) {
     .grid-num {
         margin-top: 98px;
-            margin-left: 105px;
+        margin-left: 105px;
+    }
+}
+
+@media (max-width: 500px) {
+    .grid-num {
+        margin-top: 88px;
+        margin-left: 89px;
     }
 }
 
@@ -95,6 +135,10 @@
 
 @media (max-width: 900px) {
     .grid-img { width: 142.69px; }
+}
+
+@media (max-width: 900px) {
+    .grid-img { width: 134.14px; }
 }
 
 .empty {
@@ -133,6 +177,14 @@
     text-align: center;
 }
 
+@media (max-width: 500px) {
+    .jauns-stasts {
+        width: 140px;
+        line-height: 21px;
+        font-size: 14px;
+    }
+}
+
 /*komandas dalībnieki*/
 
 .team-title {
@@ -144,6 +196,11 @@
 @media (max-width: 900px) {
     .team-title { margin-top: 18.3%; }
 }
+
+@media (max-width: 500px) {
+    .team-title { margin-top: 36.3%; }
+}
+
 
 .team-desc {
     margin-top: -0.2%;
@@ -165,6 +222,16 @@
     }
 }
 
+@media (max-width: 900px) {
+    .team-desc {
+        margin-left: 7%;
+        margin-top: 8.8%; 
+        width: 87%;   
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
 .members {
     position: relative;
     align-items: center;
@@ -180,9 +247,16 @@
 @media (max-width: 900px) {
     .members {
         margin: 12.5%;
-        margin-left: 21%;
+        margin-left: 25%;
         margin-bottom: 15%;
         width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .members {
+        margin-top: 25%;
+        margin-bottom: 7%;
     }
 }
 
@@ -192,11 +266,16 @@
 }
 
 @media (max-width: 900px) {
-    .dalibnieki {
-        margin-bottom: 7%;
-        width: 352px;
+    .dalibnieki { width: 352px; }
+}
+
+@media (max-width: 500px) {
+    .dalibnieki { 
+        width: 280px; 
+        margin-bottom: 6%;
     }
 }
+
 
 .fade {
     position: absolute;
@@ -208,6 +287,13 @@
     .fade {
         width: 352px;
         margin-left: -351px;
+    }
+}
+
+@media (max-width: 500px) {
+    .fade {
+        width: 280px;
+        margin-left: -279px;
     }
 }
 
@@ -230,6 +316,14 @@
     .status { width: 362px; }
 }
 
+@media (max-width: 500px) {
+    .status { 
+        width: 252px;
+        margin-top: -70px;           
+        font-size: 14px;
+    }
+}
+
 .name {
     margin-top: -101px;
     margin-left: 4px;
@@ -240,6 +334,14 @@
 
 @media (max-width: 900px) {
     .name { margin-left: -14px; }
+}
+
+@media (max-width: 500px) {
+    .name { 
+        margin-left: 9px;
+        margin-top: -100px;
+        font-size: 18px;
+    }
 }
 
 /* Video overlay */
@@ -265,10 +367,33 @@
     color: #FFFFFF;
 }
 
+@media (max-width: 500px) {
+    .video-name {
+        margin-top: 6.5%;
+        font-size: 24px;
+    
+    }
+}
+
 #thumbnail {   
     margin-top: 1.5%;
     margin-left: 16.6%;
     width: 66.716%;
+}
+
+@media (max-width: 900px) {
+    #thumbnail {
+        margin-top: 2.5%;
+        margin-left: 10.6%;
+        width: 79.167%;
+    }
+}
+
+@media (max-width: 500px) {
+    #thumbnail {
+        margin-left: 6.6%;
+        width: 87.188%;
+    }
 }
 
 #play {
@@ -281,10 +406,39 @@
     width: 9.2%;
 }
 
+@media (max-width: 900px) {
+    #play {
+        top: 10%;
+        width: 16.2%;
+    }
+}
+
+@media (max-width: 500px) {
+    #play {
+        top: -45%;
+        width: 23.2%;
+    }
+}
+
 #close-vid {
     margin-left: 86.8%;
     margin-top: 7%;
 }
+
+@media (max-width: 900px) {
+    #close-vid {
+        margin-left: 92.7%;
+        margin-top: 39.3%;
+    }
+}
+
+@media (max-width: 500px) {
+    #close-vid {
+        margin-left: 87.7%;
+        margin-top: 46.3%;
+    }
+}
+
 
 #show-more {
     display: none;
@@ -307,6 +461,6 @@
     }
 }
 
-.btn-cont {
-    align-items: center;
+@media (max-width: 500px) {
+    #btn-cont { margin-top: -41%; }
 }
