@@ -201,3 +201,28 @@
     margin-left: 84%;
     margin-top: 13%;
 }
+
+#show-more {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    #show-more {
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+.grid-collapse {
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .grid-collapse {
+        display: none;
+    }
+}
+
+.btn-cont {
+    align-items: center;
+}
