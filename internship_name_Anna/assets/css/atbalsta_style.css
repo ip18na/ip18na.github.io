@@ -21,10 +21,14 @@
 .izvelne { 
     width: 100%; 
     overflow: hidden;
+    margin-bottom: 5%;
+    margin-top: -3.2%;
 }
 
 .virs-teksts {
     display: block;
+    margin-top: -1%;
+    margin-bottom: 3%;
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
@@ -37,10 +41,12 @@
 
 .vieta {
     float: left;
+    margin-left: 28%;
 }
 
 .veids {
     float: right;
+    margin-right: 27.8%;
 }
 
 .atb-select {
@@ -90,7 +96,22 @@ option:checked { font-weight: bold; }
     color: #2F4858;
 }
 
+#purch-cafe {
+    margin-left: 19.6%;
+    margin-top: 10.8%;
+}
+
+
+
 #map {
     width: 100%;
     height: 658px;
+}
+
+footer {
+    margin-top: -4%;
+}
+
+.footer-pamats {
+    background-color: unset;
 }
