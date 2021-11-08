@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="lv">
+  <head>
+    <title>Sparkle Heart</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="assets/img/Intersect.png">
+    <link rel="stylesheet" href="assets/font/font.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/piesaki_sapni_stils.css">
+    <script src="assets/js/theme.js"></script>
+  </head>
+  <body>
+
+      <!--Izvēlnes pamats-->
+      <div class="menu">
+        <picture>
+          <source media="(min-width: 661px)" srcset="assets/img/desktop_menu.png" class="mala">
+          <source media="(max-width: 660px)" srcset="assets/img/mobile_menu.png" class="mala">
+          <img src="assets/img/desktop_menu.png" class="mala" alt="Izvēlnes mala">
+        </picture>
+        <input type="image" src="assets/img/navigacija.png" id="nav-icon" onclick="openNav()" alt="Atvērt navigāciju">
+        <a href="index.html">
+          <img src="assets/img/BlackLogo.jpg" alt="Sparkle care logo" id="main-logo">
+        </a>
+
+        <!--Navigācija-->
+        <div id="overlay-navigation">
+          <input type="image" src="assets/img/close.png" id="close-nav" onclick="closeNav()" alt="Aizvērt navigāciju">
+          <div class="nav">
+            <ul style="list-style-type: none; ">
+              <li><a href="ideja.html">Ideja</a></li>
+              <li><a href="piesaki_sapni.html" style="margin-left: -5%;"  id="selected">Piesaki Sapni</a></li>
+              <li><a href="uznemejiem.html" style="margin-left: -10%;">Uzņēmējiem</a></li>
+              <li><a href="sapnu_banka.html" style="margin-left: -14%;">Sapņu banka</a></li>
+              <li><a href="sapnus_atbalsta.html" style="margin-left: -15%;">Sapņus atbalsta</a></li>
+              <li><a href="iedvesmas_stasti.html" style="margin-left: -17%;">99 iedvesmas stāsti</a></li>
+              <li><div class="valoda">
+                <a href="#" style="margin-left: -35%;" id="lv">LV</a>
+                <a href="#" class="other-lang">EN</a>
+                <a href="#" class="other-lang">RU</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+      <!--Apraksts-->
+      <div class="piesaki-ievads">
+        <h1 class="piesaki-title">PIESAKI SAPNI</h1>
+        <p class="piesaki-apraksts">Tev ir iespēja pieteikt personīgo vai profesionālo sapni.</p>
+      </div>
+
+      <!--Piesaki sapni-->
+      <div class="pieteikt-sapni">
+        <div class="personigs-sapnis">
+          <img src="assets/img/personigais_sapnis.png" alt="Personīgais sapnis ikona" class="dream-icon"> 
+          <h2 class="sapnu-titles">PERSONĪGAIS SAPNIS</h2>
+          <p class="sapnu-apraksti" id="person-apraksts">Bērnības nepiepildītie sapņi... 
+            No sev piederoša svaigi spiestas sulas bāra uz Tērbatas ielas līdz iespējai satikties ar Džekiju Čanu.</p>
+          <button class="button" id="personigs-poga">Piesaki sapni</button>
+        </div>
+        <div class="profesionals-sapnis">
+          <img src="assets/img/pro_sapnis.png" alt="Profesionālais sapnis ikona" class="dream-icon" id="pro-icon"> 
+          <h2 class="sapnu-titles" id="pro-sapnis">PROFESIONĀLAIS SAPNIS</h2>
+          <p class="sapnu-apraksti" id="pro-apraksts">Sapnis vai ideja, kura ir balstīta uz reģiona, pasaules vai cilvēku attīstību 4 
+            virzienos - kultūra, izglītība, zinātne, ģimene jeb sociālā vide. Tā ir iespēja attīstīt ideju, kas 
+            uzlabotu ikdienas dzīves kvalitāti vai atrisinātu vietēja vai starptautiska līmeņa problēmu. Pastāsti, 
+            kāpēc Tev tas ir tik nozīmīgi?</p>
+            <button class="button" id="pro-poga">Piesaki sapni</button>
+        </div>
+      </div>
+
+      <!--Attēli-->
+      <div class="atteli">
+        <picture>
+          <source media="(min-width: 661px)" srcset="assets/img/desktop_bildes_top.png" class="p-mala-top">
+          <source media="(max-width: 660px)" srcset="assets/img/mobile_bildes_top.png" class="p-mala-top">
+          <img src="assets/img/desktop_bildes_top.png" class="p-mala-top" alt="bilžu mala">
+        </picture>
+  
+        <div class="container-lauma">
+          <img src="assets/img/Lauma_4.jpg" id="lauma" class="collage" alt="Lauma">
+        </div>
+  
+        <div class="collumn2">
+          <img src="assets/img/Brinuma_meita-3.jpg" id="meita2" class="collage" alt="Brīnumainā meita">
+          <img src="assets/img/Arta_2.jpg" id="arta" class="collage" alt="Arta">
+        </div>
+  
+        <div class="container-lauma2">
+          <img src="assets/img/Lauma_3.jpg" id="lauma2" class="collage" alt="Lauma">
+        </div>
+
+        <div class="container-meita">
+          <img src="assets/img/Brinuma_meita-2.jpg" id="meita3" class="collage" alt="Brīnumainā meita">
+        </div>
+  
+        <picture>
+            <source media="(min-width: 661px)" srcset="assets/img/desktop_bildes_bottom.png" class="p-mala-low">
+            <source media="(max-width: 660px)" srcset="assets/img/mobile_bildes_bottom.png" class="p-mala-low">
+            <img src="assets/img/desktop_bildes_bottom.png" class="p-mala-low" alt="bilžu mala">
+        </picture>  
+      </div>
+
+    <!--Saziņa-->
+    <div class="sazina">
+      <h2 class="sazina-title">SAZINĀTIES AR MUMS</h2> 
+      <br>
+      <form name="sazinaForm" onsubmit="return validateForm()" action=" " method="post" id="sazinaForm">
+        <input type="text" id="name" class="main-form" name="name" placeholder="Vārds, Uzvārds*">
+        <input type="text" id="email" class="main-form" name="email" placeholder="E-pasts*"> 
+        <input type="text" id="phone" class="main-form" name="phone" placeholder="Telefons*"> 
+        <textarea name="message" class="main-form" id="message" placeholder="Jautājums, vai komentārs*"></textarea> 
+
+        <div class="after-form">
+          <p id="notice">* obligāti aizpildāmie lauki</p>
+          <input type="checkbox" id="check" name="check" value='1'>
+          <label id="agreement">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks 
+            saglabāti līdz brīdim, kamēr tas būs nepieciešams.</label>
+        </div>
+          <p class="sent" id="big-sent" style="font-size: 24px; margin-top: 12%;"></p>
+          <p class="sent" id="smaller-sent" style="font-size: 18px;"></p>
+          <input type="submit" value="Sūtīt" name="submit" class="send-button" id="sending-btn">
+      </form>  
+    </div>
+
+    <!--Fiksēta poga "go up"-->
+    <img src="assets/img/go_up.svg" id="go-up" onclick="scrollUp()" alt="Poga uz augšu">
+
+    <!--Footer-->
+    <footer>
+      <div class="footer-main">
+          
+        <!--Footer pamata laukums-->
+        <picture>
+          <source media="(min-width: 461px)" srcset="assets/img/footer_desktop.png" class="footer-pamats">
+          <source media="(max-width: 460px)" srcset="assets/img/footer_mobile.png" class="footer-pamats">
+          <img src="assets/img/footer_desktop.png" class="footer-pamats" alt="Footer pamats">
+        </picture>
+
+        <!--Footer logo & copyright-->
+        <div class="footer-logo">
+          <img src="assets/img/GoldenV2Logo.png" id="golden-logo" alt="Golden logo">
+          <p id="copyright">© SparkleHeart 2020. Visas tiesības aizsargātas.</p>
+        </div>
+
+        <!--Apakšējā navigācija-->
+        <div class="bottom-nav">
+          <ul style="list-style-type: none; ">
+            <li><a href="ideja.html">Ideja</a></li>
+            <li><a href="piesaki_sapni.html" >Piesaki Sapni</a></li>
+            <li><a href="uznemejiem.html">Uzņēmējiem</a></li>
+            <li><a href="sapnu_banka.html">Sapņu banka</a></li>
+            <li><a href="sapnus_atbalsta.html">Sapņus atbalsta</a></li>
+            <li><a href="iedvesmas_stasti.html">Iedvesmas stāsti</a></li>
+          </ul>
+        </div>
+
+        <!--Rekvizīti-->
+        <div class="biedribas-info">
+          <p id="biedriba-title">Biedrība SparkleHeart</p>
+          <p class="biedriba-numuri">Reģistrācijas nr. 40008293119</p>
+          <p class="biedriba-numuri">Banka: SWEDBANK A/S</p>
+          <p class="biedriba-numuri">LV52HABA0551047652465</p>
+        </div>
+
+        <!--Kontaktinformācija-->
+        <div class="kontakti">
+          <p id="vards">Juris Gogulis</p>
+          <p class="kontaktinformacija">juris.gogulis@sparkleheart.org</p>
+          <p class="kontaktinformacija">+37126890034</p>
+          <p class="kontaktinformacija">Biķernieku iela 24a - 5, LV-1006</p>
+          <a href="#Rekviziti" class="kontaktinformacija" id="rekviziti">Skatīt rekvizītus</a>
+          <input type="image" src="assets/img/facebook.png" class="media" alt="Facebook">
+          <input type="image" src="assets/img/instagram.png" class="media" alt="Instagram">
+          <br>
+          <a href="#privatuma_politika" id="privatuma-politika">Privātuma politika</a>
+        </div> 
+      </div> 
+    </footer>
+  </body>
+</html>
