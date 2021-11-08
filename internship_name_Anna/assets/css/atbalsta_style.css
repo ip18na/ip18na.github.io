@@ -74,11 +74,11 @@ option:checked { font-weight: bold; }
 
 /* Atbalstītāji */
 
-#sponsors {
-    display: none;
-}
+#sponsors { display: none; }
 
 .cafe-name {
+    margin-left: 35.5%;
+    margin-top: -5%;
     font-family: Montserrat;
     font-weight: 500;
     font-size: 24px;
@@ -88,6 +88,8 @@ option:checked { font-weight: bold; }
 }
 
 .cafe-info {
+    margin-right: 20%;
+    margin-top: -4.5%;
     text-align: right;
     font-family: Montserrat;
     font-size: 18px;
@@ -101,6 +103,12 @@ option:checked { font-weight: bold; }
     margin-top: 10.8%;
 }
 
+.row-2 {
+    margin-top: 4.5%;
+    margin-bottom: 6.4%;
+}
+
+#kurts-cafe { margin-left: 20.1%; }
 
 
 #map {
@@ -108,10 +116,6 @@ option:checked { font-weight: bold; }
     height: 658px;
 }
 
-footer {
-    margin-top: -4%;
-}
+footer { margin-top: -4%; }
 
-.footer-pamats {
-    background-color: unset;
-}
+.footer-pamats { background-color: unset; }
