@@ -1,0 +1,230 @@
+/* Virsraksts un apraksts */
+
+.apraksts {
+    margin-top: 24.6%;
+    margin-bottom: 11%;
+    margin-left: 2.7%;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .apraksts { margin-top: 31.4%; }
+}
+
+@media (max-width: 460px){
+    .apraksts { margin-top: 39.4%; }
+}
+
+.main-title {
+    position: relative;
+    margin-left: -2.7%;
+    margin-top: -9.9%;
+}
+
+.apraksts-text {
+    left: 26.2%;
+    position: relative;
+    margin-top: 4.5%;
+    width: 44.9%;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    color: #2F4858;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 22px;
+}
+
+@media (max-width: 900px) {
+    .apraksts-text {
+        left: 8.6%;
+        margin-top: 6.5%;
+        width: 79.9%;
+    }
+}
+
+@media (max-width: 460px) {
+    .apraksts-text {
+        left: 4.6%;
+        margin-top: -2.1%;
+        width: 88.9%;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+.ideja-bilde-container {
+    position: relative;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .ideja-bilde-container{ margin-top: 20%; }
+}
+
+@media (max-width: 460px) {
+    .ideja-bilde-container { margin-top: 26%; }
+}
+
+.juris {
+    z-index: -1;
+    width: 100%;
+}
+
+.imgtext {
+    position: absolute;
+    top: 69%;
+    width: 59.884%;
+    left: 20%;
+    font-family: Oswald, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 1160px) {
+    .imgtext{
+        width: 75%;
+        top: 60%;
+        left: 12%;
+    }
+}
+
+@media (max-width: 900px) {
+    .imgtext {
+        top: 54%;
+        width: 77.475%;
+        left: 12%;
+    }
+}
+
+@media (max-width: 660px) {
+    .imgtext { top: 54.4%; }
+}
+
+
+@media (max-width: 680px) {
+    .imgtext {
+        top: 50.4%;
+        width: 87.5%;
+        left: 6%;
+        font-size: 18px;
+        line-height: 26.68px;
+    }
+}
+
+.ideja-mala1 {
+    position: absolute;
+    width: 100%;
+}
+
+.ideja-mala2 {
+    position: absolute;
+    left: 0;
+    margin-top: 47.8%;
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .ideja-mala2 { margin-top: 60.8%; }
+}
+
+@media (max-width: 460px) {
+    .ideja-mala2 { margin-top: 137.5%; }
+}
+
+.comments {
+    position: relative;
+    margin-top: 10.9%;
+    margin-bottom: 10.6%;
+    margin-left: 27.9%;
+    width: 44.071%;
+    text-align: left;
+    color: #2F4858;
+}
+
+@media (max-width: 900px) {
+    .comments {
+        margin-top: 19.7%;
+        margin-left: 10.5%;
+        width: 78.071%;
+    }
+}
+
+@media (max-width: 460px) {
+    .comments {
+        margin-top: 36.7%;
+        margin-left: 6.5%;
+        width: 83.071%;
+    }
+}
+
+@media (max-width: 900px) {
+    .author { font-size: 24px; }
+}
+
+@media (max-width: 460px) {
+    .author { font-size: 18px; }
+}
+
+.profession {
+    margin-top: -3%;
+    margin-bottom: 6%;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+@media (max-width: 900px) {
+    .profession { margin-top: -2%; }
+}
+
+@media (max-width: 460px){
+    .profession {
+        line-height: 17px;
+        font-size: 14px;
+    }
+}
+
+.said-comment {
+    font-family: Montserrat, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: .14px;
+}
+
+@media (max-width: 460px) {
+    .said-comment {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 10%;
+    }
+}
+
+.small-pogas {
+    margin-top: 1%;
+    margin-right: 7%;
+}
+
+@media (max-width: 900px) {
+    .small-pogas {
+        margin-top: .5%;
+        margin-right: 10.6%;
+        margin-bottom: 11%;
+    }
+}
+
+@media (max-width: 460px) {
+    .small-pogas {
+        margin-top: 7.5%;
+        margin-right: 14.6%;
+        margin-bottom: 5%;
+    }
+}

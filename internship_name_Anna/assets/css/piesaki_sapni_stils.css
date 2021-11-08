@@ -1,0 +1,516 @@
+/* Apraksts/ievads */
+
+.piesaki-ievads {
+    margin-top: 15%;
+    text-align: center;
+}
+
+@media(max-width: 1150px) {
+    .piesaki-title { margin-top: 21.9%; }
+}
+
+@media(max-width: 460px) {
+    .piesaki-title { margin-top: 29%; }
+}
+
+.piesaki-apraksts {
+    font-size: 24px;
+    margin-top: 4.4%;
+    letter-spacing: 0.15px;
+    font-family: Montserrat, sans-serif;
+    color: #2F4858;
+}
+
+@media(max-width: 1150px) {
+    .piesaki-apraksts {
+        margin-top: 6.4%;
+        width: 80%;
+        transform: translatex(12.5%);
+    }
+}
+
+@media(max-width: 460px) {
+    .piesaki-apraksts {    
+        font-size: 14px;
+        margin-top: -1.6%;
+    }
+}
+
+/* Piesaki sapni */
+
+.pieteikt-sapni {
+    margin-top: 6.7%;
+    width: 100%;
+}
+
+.personigs-sapnis {
+    float: left;
+    left: 11.2%;
+    position: relative;
+    width: 31.147%;
+    text-align: center;
+}
+
+@media(max-width: 1150px) {
+    .personigs-sapnis {
+        float: none;
+        left: unset; 
+        margin-top: 12%;
+        width: 100%;
+    }
+
+    .sapnu-titles { margin-top: 6.6%; }
+
+    .sapnu-apraksti {
+        margin-top: 3.5%;
+        margin-left: 8.6%;
+        width: 83%;
+    }
+
+    #personigs-poga { margin-top: 4.9%; }
+}
+
+@media(max-width: 460px) {
+    .personigs-sapnis { margin-top: 26%; }
+
+    .sapnu-apraksti {
+        margin-top: -2%;
+        margin-left: 8%;
+        width: 85%;
+    }
+
+    #personigs_poga { margin-top: 12.9%; }
+}
+
+.profesionals-sapnis {
+    right: 11.2%;
+    float: right;
+    position: relative;
+    width: 31.147%;
+    text-align: center;    
+}
+
+@media(max-width: 1150px) {
+    .profesionals-sapnis {
+        float: none;
+        right: unset; 
+        margin-top: 19%;
+        width: 100%;
+    }
+    #pro-icon {
+        margin-left: 5%;
+    }
+}
+
+@media(max-width: 460px) {
+    .profesionals-sapnis { margin-top: 22%; }
+    #pro-icon { margin-left: 12%; }
+}
+
+.sapnu-titles { margin-top: 12%; }
+
+.sapnu-apraksti {
+    margin-top: -1%;
+    margin-left: 3.2%;
+    width: 93%;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    color: #2F4858;
+}
+
+/* #personigs-poga { margin-top: 28.3%; } */
+
+#pro-poga { margin-top: 7.7%; }
+
+@media(max-width: 1150px) {
+    #pro-apraksts {
+        margin-top: 0.3%;
+        margin-left: 9%;
+        width: 82%;
+    }
+
+    #pro-poga { margin-top: 4.7%; }
+}
+
+@media(max-width: 460px) {
+    #pro-apraksts {
+        width: 83%;
+        margin-top: -2.7%;
+    }
+
+    #pro-poga { margin-top: 12.7%; }
+}
+
+/* Attēli */
+
+.atteli {
+    position: relative;
+    margin-bottom: 101.9%;
+    margin-top: 62.8%;
+    width: 100%; 
+}
+
+.p-mala-top {
+    margin-top: -1%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.p-mala-low {
+    margin-top: 23.5%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+@media(min-width: 1720px) {
+    .atteli {
+        margin-bottom: 78.9%;
+        margin-top: 42.8%;
+    }
+}
+
+@media(max-width: 1150px) {
+    .atteli { 
+        margin-top: 21%; 
+        margin-bottom: 69%;
+    }
+    .p-mala-top { top: -15px; }
+}
+
+@media(max-width: 460px) {
+    .atteli { 
+        margin-top: 37.8%; 
+        margin-bottom: 185%;
+    }
+    .p-mala-top { top: -4px; }
+
+    .p-mala-low { margin-top: 102%; }
+}
+
+.container-lauma {
+    position: absolute;
+    width: 21.83%;
+    z-index: -1;
+    left: 0;
+}
+
+@media(max-width: 460px) {
+    .container-lauma {
+        width: 50.94%;
+        margin-top: 47%;
+    }
+}
+
+.collumn2 {
+    left: 20.9%;
+    margin-top: -.7%;
+    position: absolute;
+    width: 21.82%;
+    z-index: -1;
+}
+
+#arta { margin-top: -2%; }
+
+@media(max-width: 460px) {
+    .collumn2 {
+        right: 0;
+        left: unset;
+        margin-top: 44.3%;
+        width: 51.25%;
+    }
+
+    #arta { margin-top: -3%; }
+}
+
+.container-lauma2 {
+    margin-top: -.8%;
+    width: 22.109%;
+    right: 35.2%;
+    position: absolute;
+    z-index: -1;
+}
+
+@media(max-width: 460px) {
+    .container-lauma2 {
+        width: 38.44%;
+        left: 0;
+    }
+}
+
+.container-meita {
+    margin-top: -.8%;
+    width: 35.213%;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+@media(max-width: 460px) {
+    .container-meita { width: 61.566%; }
+}
+
+.collage {
+    width: 100%;
+}
+
+
+/*  Forma */
+
+.sazina {
+    position: relative;
+    left: 27.6%;
+    margin-bottom: 11%;
+    width: 44.7%;
+    text-align: center;
+}
+
+@media(max-width: 900px) {
+    .sazina { margin-bottom: 20%; }
+}
+
+.sazina-title {
+    margin-bottom: 5%;
+    margin-top: -1%;
+}
+
+#sazina-form { padding-top: 2%; }
+
+.main-form {
+    height: 41px;
+    width: 48%;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.015em;
+    color: #2F4858;
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+    border: none;
+}
+
+@media (max-width: 900px) {
+    .sazina {
+        left: 0;
+        margin-top: 17%;
+        width: 100%;
+    } 
+
+    #sazina-form { padding-top: 1.8%; }
+
+    .main-form {
+        width: 37.76%;
+        height: 40px;
+    }
+}
+
+@media (max-width: 660px) {
+    .sazina { margin-top: 17%; }
+
+    #sazina-form {
+        margin-top: -3%;
+        padding-top: unset;
+    }
+
+    .main-form {
+        width: 86.25%;
+        height: 33px;
+        font-size: 14px;
+    }
+}
+
+::placeholder {
+    position: absolute;
+    margin-left: 2%;
+    transform: translateY(50%);
+    color: #2F4858;
+}
+
+::-webkit-input-placeholder {
+    position: relative;
+    left: 2%;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    color: #2F4858;
+}
+
+::-moz-placeholder {
+    margin: 2.5%;
+    position: absolute;
+    margin-left: 2%;
+    color: #2F4858;
+    opacity: 1;
+}
+
+/* Formas ieraksti */
+
+#name {
+    float: left;
+    margin-bottom: 2.5%;
+}
+
+#email {
+    float: right;
+}
+
+#phone {
+    width: 99.5%;
+}
+
+#message {
+    width: 99.5%;
+    height: 230px;
+    margin-top: 2.5%;
+}
+
+@media (max-width: 900px) {
+    #name {
+        margin-bottom: 0;
+        margin-right: 1%;
+        float: none;
+    }
+
+    #email {
+        margin-bottom: 0;
+        margin-left: 1%;
+        float: none;
+    }
+
+    #phone {
+        margin-top: 1.5%;
+        width: 78.65%;
+    }
+    
+    #message {
+        margin-top: 2%;
+        width: 78.65%;
+        height: 230px;
+    }
+}
+
+@media (max-width: 660px) {
+    #name {
+        margin-right: unset;
+        margin-bottom: 1%;
+    }
+
+    #email {
+        margin-left: unset;
+        margin-top: 2%;
+    }
+
+    #phone {
+        margin-top: 3%;
+        width: 86.25%;
+    }
+
+    #message {
+        margin-top: 3.5%;
+        width: 86.25%;
+        height: 146px;
+    }
+}
+
+/* Pēc formas rakstiskām ievadēm */
+
+.after-form {
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
+
+#notice {
+    margin-top: 1.7%;
+    margin-bottom: 5.6%;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    color: #2F4858;
+}
+
+#check {
+    position: absolute;
+    background: #E7E7E7;
+    border-radius: 3px;
+}
+
+#agreement {
+    padding-left: 6.5%;
+    margin-bottom: 6.8%;
+    height: 39px;
+    width: 94%;
+    float: left;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F4858;
+}
+
+@media (max-width: 900px) {
+    .after-form {
+        left: 11%;
+        margin-left: -0.5%;
+        margin-top: -0.5%;
+        width: 80%;
+    }
+
+    #notice { margin-bottom: 2%; }
+
+    #agreement { margin-bottom: 5%; }
+}
+
+@media (max-width: 660px) {
+    .after-form {
+        left: 6%;
+        margin-top: 2%;
+        width: 86.25%;
+        font-size: 12px;
+    }
+
+    #agreement {
+        margin-left: 7%;
+        margin-top: 3%;
+        margin-bottom: unset;
+        width: 89%;
+        font-size: 12px;
+        line-height: 14.63px;
+    }
+}
+
+/*Sūtīšanas poga*/
+
+.send-button {
+    margin-top: 1%;
+    position: relative;
+    width: 182px;
+    height: 62px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    background-color: #FFA800;
+    border-radius: 30px;
+}
+
+.send-button:hover { background-color: #FFDA16; }
+
+.send-button:active { background-color: #FF8A00; }
+
+@media (max-width: 900px) {
+    .send-button { margin-top: 2.3%; }
+}
+
+@media (max-width: 660px) {
+    .send-button {
+        transform: translatey(160%);
+        -webkit-transform: translatey(160%);
+        margin-top: unset;
+        margin-bottom: 45.5%;
+        width: 140px;
+        height: 47.69px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 380px) {
+    .footer-main { margin-top: -7.5%; }
+}

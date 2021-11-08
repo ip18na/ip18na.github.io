@@ -1,0 +1,282 @@
+.uznem-ievads {
+    margin-top: 15%;
+    text-align: center;
+}
+
+.uznem-apraksts {
+    margin-top: 3.6%;
+    margin-bottom: 11%;
+    margin-left: 2.7%;
+    text-align: center;
+    letter-spacing: 0.15px;
+    font-size: 24px;
+    font-family: Montserrat, sans-serif;
+    color: #2F4858;
+}
+
+/*  Forma */
+
+.sazina {
+    position: relative;
+    left: 27.6%;
+    margin-bottom: 11%;
+    width: 44.7%;
+    text-align: center;
+}
+
+.sazina-title {
+    margin-bottom: 5%;
+    margin-top: -1%;
+}
+
+#sazina-form { padding-top: 2%; }
+
+.main-form {
+    height: 41px;
+    width: 48%;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.015em;
+    color: #2F4858;
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+    border: none;
+}
+
+@media (max-width: 900px) {
+    .sazina {
+        left: 0;
+        margin-top: 17%;
+        width: 100%;
+    } 
+
+    #sazina-form { padding-top: 1.8%; }
+
+    .main-form {
+        width: 37.76%;
+        height: 40px;
+    }
+}
+
+@media (max-width: 660px) {
+    .sazina { margin-top: 17%; }
+
+    #sazina-form {
+        margin-top: -3%;
+        padding-top: unset;
+    }
+
+    .main-form {
+        width: 86.25%;
+        height: 33px;
+        font-size: 14px;
+    }
+}
+
+::placeholder {
+    position: absolute;
+    margin-left: 2%;
+    transform: translateY(50%);
+    color: #2F4858;
+}
+
+::-webkit-input-placeholder {
+    position: relative;
+    left: 2%;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    color: #2F4858;
+}
+
+::-moz-placeholder {
+    margin: 2.5%;
+    position: absolute;
+    margin-left: 2%;
+    color: #2F4858;
+    opacity: 1;
+}
+
+/* Formas ieraksti */
+
+#name {
+    float: left;
+    margin-bottom: 2.5%;
+}
+
+#email {
+    float: right;
+}
+
+#nos {
+    width: 99.5%;
+    margin-bottom: 2%;
+}
+
+#phone {
+    width: 99.5%;
+}
+
+#message {
+    width: 99.5%;
+    height: 230px;
+    margin-top: 2.5%;
+}
+
+@media (max-width: 900px) {
+    #name {
+        margin-bottom: 0;
+        margin-right: 1%;
+        float: none;
+    }
+
+    #email {
+        margin-bottom: 0;
+        margin-left: 1%;
+        float: none;
+    }
+
+    #nos {
+        margin-top: 1.5%;
+        width: 78.65%;
+        margin-bottom: unset;
+    }
+
+    #phone {
+        margin-top: 1.5%;
+        width: 78.65%;
+    }
+    
+    #message {
+        margin-top: 2%;
+        width: 78.65%;
+        height: 230px;
+    }
+}
+
+@media (max-width: 660px) {
+    #name {
+        margin-right: unset;
+        margin-bottom: 1%;
+    }
+
+    #email {
+        margin-left: unset;
+        margin-top: 2%;
+    }
+
+    #nos {
+        margin-top: 3%;
+        width: 86.25%;
+    }
+
+    #phone {
+        margin-top: 3%;
+        width: 86.25%;
+    }
+
+    #message {
+        margin-top: 3.5%;
+        width: 86.25%;
+        height: 146px;
+    }
+}
+
+/* Pēc formas rakstiskām ievadēm */
+
+.after-form {
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
+
+#notice {
+    margin-top: 1.7%;
+    margin-bottom: 5.6%;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    color: #2F4858;
+}
+
+#check {
+    position: absolute;
+    background: #E7E7E7;
+    border-radius: 3px;
+}
+
+#agreement {
+    padding-left: 6.5%;
+    margin-bottom: 6.8%;
+    height: 39px;
+    width: 94%;
+    float: left;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F4858;
+}
+
+@media (max-width: 900px) {
+    .after-form {
+        left: 11%;
+        margin-left: -0.5%;
+        margin-top: -0.5%;
+        width: 80%;
+    }
+
+    #notice { margin-bottom: 2%; }
+
+    #agreement { margin-bottom: 5%; }
+}
+
+@media (max-width: 660px) {
+    .after-form {
+        left: 6%;
+        margin-top: 2%;
+        width: 86.25%;
+        font-size: 12px;
+    }
+
+    #agreement {
+        margin-left: 7%;
+        margin-top: 3%;
+        margin-bottom: unset;
+        width: 89%;
+        font-size: 12px;
+        line-height: 14.63px;
+    }
+}
+
+/*Sūtīšanas poga*/
+
+.send-button {
+    margin-top: 1%;
+    position: relative;
+    width: 182px;
+    height: 62px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    background-color: #FFA800;
+    border-radius: 30px;
+}
+
+.send-button:hover { background-color: #FFDA16; }
+
+.send-button:active { background-color: #FF8A00; }
+
+@media (max-width: 900px) {
+    .send-button { margin-top: 2.3%; }
+}
+
+@media (max-width: 660px) {
+    .send-button {
+        transform: translatey(160%);
+        -webkit-transform: translatey(160%);
+        margin-top: unset;
+        margin-bottom: 45.5%;
+        width: 140px;
+        height: 47.69px;
+        font-size: 18px;
+    }
+}

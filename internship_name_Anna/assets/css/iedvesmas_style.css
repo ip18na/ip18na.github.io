@@ -1,0 +1,203 @@
+.iedvesma-ievads { margin-left: 0.3%; }
+
+.iedvesma-title {
+    margin-top: 15%;
+    text-align: center;
+    position: relative;
+}
+
+.iedvesma-apraksts {
+    margin-top: 4.3%;
+    margin-bottom: 10.6%;
+    margin-left: 14.9%;
+    text-align: center;
+    letter-spacing: 0.15px;
+    font-size: 24px;
+    width: 70%;
+    font-family: Montserrat, sans-serif;
+    color: #2F4858;
+}
+
+/* grid */
+
+.grid-container {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+   /* justify-content: space-evenly; */
+    margin: 11%;
+}
+
+.grid-item {
+    margin: 0.5%;
+    margin-bottom: 0.78%;
+    width: 160px;
+    height: 160px;
+    background-image: url("../img/grid_frame.png");
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.grid-num {
+    position: absolute;
+    z-index: 1;
+    margin-top: 115px;
+    margin-left: 122px;
+}
+
+.grid-img {
+    position: absolute;
+    display: flex;
+    opacity: 0.5;
+}
+
+.empty {
+    margin: 0.5%;
+    width: 160px;
+    height: 50px;
+}
+
+.balode {
+    position: absolute;
+    z-index: 1;
+    margin-left: 47px;
+    margin-top: 40px;
+    width: 59px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+}
+
+.jauns-stasts {
+    position: absolute;
+    z-index: 1;
+    margin-left: -2px;
+    margin-top: 47px;
+    width: 160px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    align-items: center;
+    text-align: center;
+}
+
+/*komandas dalībnieki*/
+
+.team-title {
+    margin-top: 13.3%;
+    text-align: center;
+    position: relative;
+}
+
+.team-desc {
+    margin-top: -0.2%;
+    margin-bottom: -0.5%;
+    margin-left: 28.5%;
+    width: 43%;
+    text-align: center;
+    letter-spacing: 0.15px;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: Montserrat, sans-serif;
+    color: #2F4858;
+}
+
+.members {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5%;
+    margin-right: 6%;
+    margin-left: 6%;
+    margin-bottom: 10.6%;
+}
+
+.dalibnieki {
+    position: relative;
+    margin-bottom: 6%;
+}
+
+.fade {
+    position: absolute;
+    z-index: 1;
+    margin-left: -289px;
+}
+
+.status {
+    position: absolute;
+    z-index: 2;
+    margin-top: -66px;  
+    margin-left: 13px;
+    width: 271px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.94px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.name {
+    margin-top: -101px;
+    margin-left: 4px;
+    font-family: Oswald;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+/* Video overlay */
+
+.video-overlay {
+    top: 0;
+    position: fixed;
+    z-index: 3;
+    display: none;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    background: rgba(47, 72, 88, 0.9);
+}
+
+.video-name {
+    font-family: Oswald;
+    font-size: 36px;
+    line-height: 36px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#thumbnail {   
+    margin-top: 1%;
+    margin-left: 15%;
+}
+
+#play {
+    left: 0;
+    top: 0.6%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    width: 9.2%;
+}
+
+#close-vid {
+    margin-left: 84%;
+    margin-top: 13%;
+}

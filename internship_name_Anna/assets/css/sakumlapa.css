@@ -1,0 +1,669 @@
+/* Video */
+
+.video {
+    margin-top: 3.45%;
+    position: relative;
+    width:100%;
+}
+
+#thumbnail { width: 100%; }
+
+#play {
+    left: 0;
+    top: 0.6%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    width: 9.2%;
+}
+
+@media (max-width: 900px) {
+    .video { margin-top: 9.45%; }
+
+    #play { width: 16.1%; }
+}
+
+@media (max-width: 660px) {
+    .video { margin-top: 15.6%; }
+
+    #play { width: 23.1%; }
+}
+
+/* Teksts/apraksts */
+
+.text{
+    margin-top: 10.65%; 
+    margin-bottom: 11.5%;
+    width: 100%; 
+    text-align: center;
+} 
+
+#desc {
+    left: 26.2%;
+    position: relative;
+    width: 47.9%;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    color: #2F4858;
+}
+
+@media (max-width: 900px) {
+    .text {
+        margin-bottom: 7%;
+        height: 300px;
+    }
+
+    #desc {
+        top: 22%;
+        transform: translate(-21%);
+        width: 81.55%;
+        height: 62.67%;
+    }
+}
+
+@media (max-width: 660px) {
+    .text { height: 197px; }
+
+    #desc {
+        transform: translate(-23%);
+        margin-top: -0.5%;
+        width: 87.55%;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+/* Attēli */
+
+.bildes {
+    position: relative;
+    width: 100%;
+} 
+
+.mala2 {
+    top: -2px;
+    position: absolute;
+    width: 100%;
+}
+
+.mala3 {
+    margin-top: 24.9%;
+    position: absolute;
+    width: 100%;
+}
+
+.container-zanda {
+    position: absolute;
+    width: 24.02%;
+    z-index: -1;
+}
+
+#zanda {
+    margin-top: 3.5%;
+    width: 100%;
+}
+
+.container-sibilla {
+    position: absolute;
+    width: 24.45%;
+    left: 24.02%;
+    z-index: -1;
+}
+
+.sibilla {
+    margin-top: 5%; 
+    width: 100%;
+}
+
+.collumn {
+    right: 29.75%;
+    position: absolute;
+    width: 21.82%;
+    z-index: -1;
+}
+
+#meita {
+    margin-top: 5.5%;
+    position: absolute;
+    width: 100%;
+}
+
+#alina {
+    margin-top: 65.5%;
+    position: absolute;
+    width: 100%;
+}
+
+.container-anda {
+    right: 0;
+    position: absolute;
+    width: 29.75%;
+    z-index: -1;
+}
+
+#anda {
+    margin-top: -0.3%;
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .bildes { margin-top: -0.2%; }
+}
+
+@media (max-width: 660px) {
+    .bildes { margin-top: 16%; }
+
+    .collumn {
+        top: -1px;
+        left: 0;
+        width: 42.5%;
+        z-index: -2;
+    }
+
+    .container-anda {
+        width: 57.5%;
+        z-index: -1;
+    }
+
+    .container-zanda {
+        margin-top: 52.2%;
+        width: 52.5%;
+    }
+
+    .container-sibilla {
+        left: 52.5%;
+        margin-top: 51.4%;  
+        width: 47.5%;
+    }
+
+    .mala2 { top: -1px; } 
+
+    .mala3 { margin-top: 103.2%; }
+}
+
+/*  piepildīt sapni */
+
+.sapni {
+    margin-top: 49.8%;
+    padding-bottom: 20.4%;
+    width: 100%;
+}
+
+.sapnotajiem {
+    left: 8%;
+    float: left;
+    position: relative;
+    width: 44.95%;
+    text-align: center;
+}
+
+.uznemejiem {
+    right: 6.2%;
+    position: relative;
+    width: 48.9%;
+    float: right;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .sapni { margin-top: 57%; }
+
+    .sapnotajiem { left: 3%; }
+
+    .uznemejiem {
+        right: 3%;
+        width: 44.95%;
+    }
+}
+
+@media (max-width: 660px) {
+    .sapni { margin-top: 164.4%; }
+
+    .sapnotajiem {
+        left: unset;
+        transform: translatex(6%);
+        margin-bottom: 25%;
+        width: 90%;
+        float: none;
+    }
+
+    .uznemejiem {
+        right: unset;
+        transform: translatex(6%);
+        width: 90%;
+        float: none;
+    }
+}
+
+/*  Forma */
+
+.sazina {
+    left: 27.6%;
+    position: relative;
+    width: 44.7%;
+    text-align: center;
+}
+
+#sazina-form { padding-top: 2%; }
+
+.main-form {
+    height: 41px;
+    width: 48%;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.015em;
+    color: #2F4858;
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+    border: none;
+}
+
+@media (max-width: 900px) {
+    .sazina {
+        left: 0;
+        margin-top: 17%;
+        width: 100%;
+    } 
+
+    #sazina-form { padding-top: 1.8%; }
+
+    .main-form {
+        width: 37.76%;
+        height: 40px;
+    }
+}
+
+@media (max-width: 660px) {
+    .sazina { margin-top: 17%; }
+
+    #sazina-form {
+        margin-top: -3%;
+        padding-top: unset;
+    }
+
+    .main-form {
+        width: 86.25%;
+        height: 33px;
+        font-size: 14px;
+    }
+}
+
+::placeholder {
+    position: absolute;
+    margin-left: 2%;
+    transform: translateY(50%);
+    color: #2F4858;
+}
+
+::-webkit-input-placeholder {
+    position: relative;
+    left: 2%;
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    color: #2F4858;
+}
+
+::-moz-placeholder {
+    margin: 2.5%;
+    position: absolute;
+    margin-left: 2%;
+    color: #2F4858;
+    opacity: 1;
+}
+
+/* Formas ieraksti */
+
+#name {
+    float: left;
+    margin-bottom: 2.5%;
+}
+
+#email {
+    float: right;
+}
+
+#phone {
+    width: 99.5%;
+}
+
+#message {
+    width: 99.5%;
+    height: 230px;
+    margin-top: 2.5%;
+}
+
+@media (max-width: 900px) {
+    #name {
+        margin-bottom: 0;
+        margin-right: 1%;
+        float: none;
+    }
+
+    #email {
+        margin-bottom: 0;
+        margin-left: 1%;
+        float: none;
+    }
+
+    #phone {
+        margin-top: 1.5%;
+        width: 78.65%;
+    }
+    
+    #message {
+        margin-top: 2%;
+        width: 78.65%;
+        height: 230px;
+    }
+}
+
+@media (max-width: 660px) {
+    #name {
+        margin-right: unset;
+        margin-bottom: 1%;
+    }
+
+    #email {
+        margin-left: unset;
+        margin-top: 2%;
+    }
+
+    #phone {
+        margin-top: 3%;
+        width: 86.25%;
+    }
+
+    #message {
+        margin-top: 3.5%;
+        width: 86.25%;
+        height: 146px;
+    }
+}
+
+/* Pēc formas rakstiskām ievadēm */
+
+.after-form {
+    position: relative;
+    width: 100%;
+    text-align: left;
+}
+
+#notice {
+    margin-top: 1.7%;
+    margin-bottom: 5.6%;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    color: #2F4858;
+}
+
+#check {
+    position: absolute;
+    background: #E7E7E7;
+    border-radius: 3px;
+}
+
+#agreement {
+    padding-left: 6.5%;
+    margin-bottom: 6.8%;
+    height: 39px;
+    width: 94%;
+    float: left;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2F4858;
+}
+
+@media (max-width: 900px) {
+    .after-form {
+        left: 11%;
+        margin-left: -0.5%;
+        margin-top: -0.5%;
+        width: 80%;
+    }
+
+    #notice { margin-bottom: 2%; }
+
+    #agreement { margin-bottom: 5%; }
+}
+
+@media (max-width: 660px) {
+    .after-form {
+        left: 6%;
+        margin-top: 2%;
+        width: 86.25%;
+        font-size: 12px;
+    }
+
+    #agreement {
+        margin-left: 7%;
+        margin-top: 3%;
+        margin-bottom: unset;
+        width: 89%;
+        font-size: 12px;
+        line-height: 14.63px;
+    }
+}
+
+/*Sūtīšanas poga*/
+
+.send-button {
+    margin-top: 1%;
+    position: relative;
+    width: 182px;
+    height: 62px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    background-color: #FFA800;
+    border-radius: 30px;
+}
+
+.send-button:hover { background-color: #FFDA16; }
+
+.send-button:active { background-color: #FF8A00; }
+
+@media (max-width: 900px) {
+    .send-button { margin-top: 2.3%; }
+}
+
+@media (max-width: 660px) {
+    .send-button {
+        transform: translatey(160%);
+        -webkit-transform: translatey(160%);
+        margin-top: unset;
+        margin-bottom: 45.5%;
+        width: 140px;
+        height: 47.69px;
+        font-size: 18px;
+    }
+}
+
+/* atbalstītāji */
+
+.atbalstitaji{
+    margin-top: 10.6%;
+    background-color: #ffcb66;
+}
+
+#ripped-atbalstitaji {
+    margin-top: -0.5%;
+    position: absolute;
+    width: 100%;
+}
+
+.atbalstitaji-pamats {
+    margin-top: 3%;
+    width: 100%;
+    background-color: #ffcb66;
+}
+
+#grid{
+    margin-top: -2.8%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 900px) {
+    .atbalstitaji { margin-top: 19%; }
+
+    #grid {
+        margin-top: -6.3%;
+        margin-left: -1%;
+    }
+}
+
+@media (max-width: 660px) {
+    .atbalstitaji { margin-top: unset; }
+
+    .atbalstitaji-pamats { height: unset; }
+}
+
+@media (max-width: 460px) {
+    .atbalstitaji {
+        margin-top: 13%;
+        background-color: transparent;
+    }
+
+    .atbalstitaji-pamats { background-color: transparent; }
+
+    #ripped-atbalstitaji { display: none; }
+
+    #grid { margin-top: 13%; }
+}
+
+@media(max-width:380px) {
+    .atbalstitaji-pamats { height: unset; }
+}
+
+/* Atbalstītāji saturs */
+#atbalstitaji-title {
+    margin-top: -30.7%;
+    width: 100%;
+    height: 29px;
+    text-align: center;
+}
+
+#container-teikums {
+    margin-top: 6%;
+    position: relative;
+    width: 242px;
+    height: 80px;
+}
+
+#container-sem {
+    margin-top: 6.2%;
+    position: relative;
+    width: 209.32px;
+    height: 80px;
+}
+
+#container-citybee {
+    position: relative;
+    width: 239px;
+    height: 80px;
+    margin-top: 6%;
+}
+
+#container-linearis {
+    position: relative;
+    width: 84.77px; 
+    height: 120px;
+    margin-top: 6%;
+}
+
+#pagarinajums { height: 131px; }
+
+@media (max-width: 900px) {
+    #atbalstitaji-title {
+        margin-top: -30%;;
+        font-size: 24px;
+    }
+    
+    #container-teikums {
+        margin-left: 3%;
+        width: 144px;
+        height: 47px;
+    }
+    
+    #container-sem{
+        margin-left: -2%;
+        width: 123px;
+        height: 47px;
+
+    }
+    
+    #container-citybee{
+        margin-left: -2%;
+        width: 142px;
+        height: 47px;
+    }
+    
+    #container-linearis {
+        margin-left: 1%;
+        width: 49px; 
+        height: 71px;
+    }
+    
+    .atbalstitaji-logo {
+        position: absolute;
+        height: 100%;
+        width: auto;
+    }
+
+    #pagarinajums { height: 68px; }  
+}
+
+@media (max-width: 460px) {
+    #atbalstitaji-title { margin-top: -203%; }
+
+    #container-teikums {
+        width: 130px;
+        height: 44px;
+    }
+
+    #container-sem {
+        width: 131px;
+        height: 51px;
+    }
+
+    #container-citybee {
+        width: 131px;
+        height: 44px;
+    }
+
+    #container-linearis {
+        width: 48px;
+        height: 67px;
+    }   
+}
+
+@media(max-width:380px) {
+    #container-teikums { margin-left: 1%; }
+
+    #container-sem { margin-left: 1%; }
+
+    #container-citybee {
+        margin-top: 5%;
+        margin-left: -10%;
+    }
+
+    #container-linearis { margin-top: 10%; }
+
+    .empty { display:none; }
+}
+
+/* Footer nianses*/
+
+.footer-pamats {
+    background-color: #ffcb66;
+}
+
+@media (max-width: 660px) {
+    footer { background: #ffcb66; }
+}
