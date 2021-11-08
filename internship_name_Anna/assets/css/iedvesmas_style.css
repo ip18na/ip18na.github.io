@@ -6,6 +6,10 @@
     position: relative;
 }
 
+@media (max-width: 900px) {
+    .iedvesma-title { margin-top: 22%; }
+}
+
 .iedvesma-apraksts {
     margin-top: 4.3%;
     margin-bottom: 10.6%;
@@ -18,6 +22,10 @@
     color: #2F4858;
 }
 
+@media (max-width: 900px) {
+    .iedvesma-apraksts { margin-top: 6.3%; }
+}
+
 /* grid */
 
 .grid-container {
@@ -26,12 +34,22 @@
     display: flex;
     flex-wrap: wrap;
    /* justify-content: space-evenly; */
-    margin: 11%;
+    margin: 10%;
+    margin-left: 11.5%;
+}
+
+@media (max-width: 900px) {
+    .grid-container {
+        margin: 11%;
+        margin-left: 10%;
+        margin-bottom: -2%;
+    }
 }
 
 .grid-item {
     margin: 0.5%;
-    margin-bottom: 0.78%;
+    margin-left: 8%;
+    margin-bottom: 0.8%;
     width: 160px;
     height: 160px;
     background-image: url("../img/grid_frame.png");
@@ -44,6 +62,17 @@
     color: #FFFFFF;
 }
 
+@media (max-width: 900px) {
+    .grid-item {
+        margin-bottom: 1.78%;
+        margin-right: 0.94%;
+        margin-left: unset;
+        width: 142.69px;
+        height: 142.69px;
+    }
+}
+
+
 .grid-num {
     position: absolute;
     z-index: 1;
@@ -51,10 +80,21 @@
     margin-left: 122px;
 }
 
+@media (max-width: 900px) {
+    .grid-num {
+        margin-top: 98px;
+            margin-left: 105px;
+    }
+}
+
 .grid-img {
     position: absolute;
     display: flex;
     opacity: 0.5;
+}
+
+@media (max-width: 900px) {
+    .grid-img { width: 142.69px; }
 }
 
 .empty {
@@ -96,9 +136,13 @@
 /*komandas dalībnieki*/
 
 .team-title {
-    margin-top: 13.3%;
+    margin-top: 10.7%;
     text-align: center;
     position: relative;
+}
+
+@media (max-width: 900px) {
+    .team-title { margin-top: 18.3%; }
 }
 
 .team-desc {
@@ -114,6 +158,13 @@
     color: #2F4858;
 }
 
+@media (max-width: 900px) {
+    .team-desc {
+        margin-left: 12%;
+        width: 76%;    
+    }
+}
+
 .members {
     position: relative;
     align-items: center;
@@ -123,12 +174,28 @@
     margin: 5%;
     margin-right: 6%;
     margin-left: 6%;
-    margin-bottom: 10.6%;
+    margin-bottom: 9.6%;
+}
+
+@media (max-width: 900px) {
+    .members {
+        margin: 12.5%;
+        margin-left: 21%;
+        margin-bottom: 15%;
+        width: 50%;
+    }
 }
 
 .dalibnieki {
     position: relative;
     margin-bottom: 6%;
+}
+
+@media (max-width: 900px) {
+    .dalibnieki {
+        margin-bottom: 7%;
+        width: 121.8%;
+    }
 }
 
 .fade {
@@ -152,12 +219,20 @@
     color: #FFFFFF;
 }
 
+@media (max-width: 900px) {
+    .status { width: 362px; }
+}
+
 .name {
     margin-top: -101px;
     margin-left: 4px;
     font-family: Oswald;
     font-size: 24px;
     line-height: 36px;
+}
+
+@media (max-width: 900px) {
+    .name { margin-left: -14px; }
 }
 
 /* Video overlay */
@@ -174,6 +249,7 @@
 }
 
 .video-name {
+    margin-top: 1.5%;
     font-family: Oswald;
     font-size: 36px;
     line-height: 36px;
@@ -183,13 +259,14 @@
 }
 
 #thumbnail {   
-    margin-top: 1%;
-    margin-left: 15%;
+    margin-top: 1.5%;
+    margin-left: 16.6%;
+    width: 66.716%;
 }
 
 #play {
     left: 0;
-    top: 0.6%;
+    top: -8.4%;
     right: 0;
     bottom: 0;
     margin: auto;
@@ -198,8 +275,8 @@
 }
 
 #close-vid {
-    margin-left: 84%;
-    margin-top: 13%;
+    margin-left: 86.8%;
+    margin-top: 7%;
 }
 
 #show-more {
