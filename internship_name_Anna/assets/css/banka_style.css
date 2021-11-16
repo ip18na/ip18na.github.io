@@ -128,7 +128,7 @@
 @media (max-width: 660px) {
     #kalni-icon {
         float: none;       
-        margin-top: -18%;
+        margin-top: 9%;
         margin-left: 31%;
         margin-right: unset;
         width: 37%;
@@ -152,7 +152,7 @@
 @media (max-width: 660px) {
     #kalni-text {
         margin-left: 6.7%;
-        margin-top: 48.6%;
+        margin-top: 6.6%;
         width: 87%;
         float: none;
         text-align: center;
@@ -173,6 +173,16 @@
     }
 }
 
+@media (max-width: 660px) {
+    #brilles-icon {
+        margin-top: 8.5%;
+        margin-right: 3%;
+        margin-left: 31.8%;
+        width: 37%;
+        float: none;
+    }
+}
+
 #brilles-text {
     float: right;
     margin-top: 2.77%;
@@ -183,6 +193,14 @@
     #brilles-text {       
        margin-top: 7.77%;
         margin-right: 10%;
+    }
+}
+
+@media (max-width: 660px) {
+    #brilles-text {  
+        float: none; 
+        margin-top: 40.77%;
+        margin-bottom: 1%;
     }
 }
 
@@ -229,6 +247,16 @@
     color: #2F4858;
 }
 
+@media (max-width: 660px) {
+    .misija-apraksts { 
+        margin-top: 7.7%;
+        margin-bottom: 31%;
+        width: 95%;
+        font-size: 18px;
+    }
+}
+
+
 /* Dzeltenais bloks */
 
 .yellow-pamats {
@@ -245,10 +273,19 @@
     margin-left: -63.5%;
     margin-top: 5.7%;
 }
+
 @media (max-width: 970px) {
     .white-icon {
         margin-left: -74.5%;
         margin-top: 18.7%;
+    }
+}
+
+@media (max-width: 660px) {
+    .white-icon {
+        margin-left: -90.5%;
+        width: 82%;
+        margin-top: 32.7%;
     }
 }
 
@@ -273,6 +310,16 @@
         width: 78%;
     }
 }
+
+@media (max-width: 660px) {
+    .white-text {
+        font-size: 18px;
+        margin-top: -57.2%;
+        margin-left: 5.5%;
+        width: 89%;
+    }
+}
+
 
 /* sapņņu atlase */
 
@@ -302,10 +349,26 @@
         margin-left: 13.6%;
     }
 }
+
+@media (max-width: 660px) {
+    .loudspeaker { 
+        float: none;
+        width: 90%;
+        margin-left: 5.6%;
+    }
+}
+
 @media (max-width: 970px) {
     #speaker-icon{
         width: 51%;
         margin-top: 6%;
+    }
+}
+
+@media (max-width: 660px) {
+    #speaker-icon{
+        width: 39%;
+        margin-top: 11%;
     }
 }
 
@@ -327,6 +390,19 @@
     #people-icon {
         width: 63%;
         margin-top: 7%;
+    }
+}
+
+@media (max-width: 660px) {
+    .people {
+        width: 79.011%;
+        margin-right: 11.5%;
+        margin-top: 3.8%;
+    }
+
+    #people-icon {
+        width: 52%;
+        margin-top: 13%;
     }
 }
 
@@ -360,12 +436,27 @@
     }
 }
 
+@media (max-width: 660px) {
+    #vara-desc {
+        margin-top: -67.5%;
+        margin-left: 1%;
+        width: 96%;
+    }
+}
+
 #varaviksne { margin-left: -66%; }
 
 @media (max-width: 970px) {
     #varaviksne {
         margin-left: -78%;
         margin-top: 19.7%;
+    }
+}
+
+@media (max-width: 660px) {
+    #varaviksne {
+        margin-left: -91%;
+        margin-top: 29.7%;
     }
 }
 
@@ -408,7 +499,7 @@
 }
 
 @media (max-width: 660px) {
-    .sapni { margin-top: 164.4%; }
+    .sapni { margin-top: 0.6%; }
 
     .sapnotajiem {
         left: unset;
