@@ -6,6 +6,10 @@
     position: relative;
 }
 
+@media (max-width: 900px) {
+    .atb-title { margin-top: 21.8%; }
+}
+
 .atb-apraksts {
     margin-top: 4.6%;
     margin-bottom: 11%;
@@ -18,8 +22,16 @@
     color: #2F4858;
 }
 
+@media (max-width: 900px) {
+    .atb-apraksts {
+        margin-top: 6.6%;
+        margin-left: 10.2%;
+        width: 81%;
+    }
+}
+
 .izvelne { 
-    width: 100%; 
+    width: 100%;
     overflow: hidden;
     margin-bottom: 5%;
     margin-top: -3.2%;
@@ -27,7 +39,7 @@
 
 .virs-teksts {
     display: block;
-    margin-top: -1%;
+    margin-top: 0%;
     margin-bottom: 3%;
     font-family: Montserrat;
     font-style: normal;
@@ -39,14 +51,50 @@
     color: #FFA800;
 }
 
+@media (max-width: 900px) {
+    .virs-teksts { margin-top: 13%; }
+}
+
 .vieta {
+    left: 8%;
     float: left;
-    margin-left: 28%;
+    position: relative;
+    width: 44.95%;
+    text-align: center;
+}
+
+@media (max-width: 750px) {
+    .vieta { 
+        left: 15%;
+        float: unset;
+        position: relative;
+        width: 70%;
+    }
+}
+
+@media (max-width: 450px) {
+    .vieta { left: 8%; }
 }
 
 .veids {
+    right: 6.2%;
+    position: relative;
+    width: 48.9%;
     float: right;
-    margin-right: 27.8%;
+    text-align: center;
+}
+
+@media (max-width: 750px) {
+    .veids { 
+        left: 15%;
+        float: unset;
+        position: relative;
+        width: 70%;
+    }
+}
+
+@media (max-width: 450px) {
+    .veids { left: 8%; }
 }
 
 .atb-select {
@@ -87,6 +135,13 @@ option:checked { font-weight: bold; }
     color: #2F4858;
 }
 
+@media (max-width: 900px) {
+    .cafe-name {
+        margin-left: 27.5%;
+        margin-top: -9%;
+    }
+}
+
 .cafe-info {
     margin-right: 20%;
     margin-top: -4.5%;
@@ -98,9 +153,23 @@ option:checked { font-weight: bold; }
     color: #2F4858;
 }
 
+@media (max-width: 900px) {
+    .cafe-info {
+        margin-right: 10%;
+        margin-top: -7.5%;
+    }
+}
+
 #purch-cafe {
     margin-left: 19.6%;
     margin-top: 10.8%;
+}
+
+@media (max-width: 900px) {
+    #purch-cafe {
+        margin-left: 8.6%;
+        margin-top: 14.8%;
+    }
 }
 
 .row-2 {
@@ -108,12 +177,26 @@ option:checked { font-weight: bold; }
     margin-bottom: 6.4%;
 }
 
+@media (max-width: 900px) {
+    .row-2 { margin-bottom: 11.4%; }
+}
+
 #kurts-cafe { margin-left: 20.1%; }
 
+@media (max-width: 900px) {
+    #kurts-cafe {
+        margin-left: 9.1%;
+        margin-top: 2%;
+    }
+}
 
 #map {
     width: 100%;
     height: 658px;
+}
+
+@media (max-width: 900px) {
+    #map { height: 812px; }
 }
 
 /* infowindow */
@@ -138,5 +221,13 @@ option:checked { font-weight: bold; }
 }
 
 footer { margin-top: -4%; }
+
+@media (max-width: 750px) {
+    footer { margin-top: -21%; }
+}
+
+@media (max-width: 450px) {
+    footer { margin-top: -36%; }
+}
 
 .footer-pamats { background-color: unset; }
