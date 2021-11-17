@@ -118,13 +118,3 @@ function playVideo() {
     document.getElementById("play").style.display = "none";
     document.getElementById("video-player").style.display = "block";
 }
-
-//karte
-
-function myMap() {
-    var mapProp= {
-      center:new google.maps.LatLng(56.9,  24.1), 
-      zoom: 12,
-    };
-    var map = new google.maps.Map(document.getElementById("map"),mapProp);
-}
