@@ -8,6 +8,15 @@
 
 #thumbnail { width: 100%; }
 
+#video-player {
+    display: none;
+    width: 100%;
+    height: 56vw;
+    border: 0;
+    border: none;
+    overflow: hidden;
+}
+
 #play {
     left: 0;
     top: 0.6%;
@@ -408,7 +417,7 @@
     margin-bottom: 6.8%;
     height: 39px;
     width: 94%;
-    float: left;
+    float: right;
     font-family: Montserrat, sans-serif;
     font-size: 14px;
     line-height: 17px;

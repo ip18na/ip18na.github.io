@@ -116,6 +116,27 @@ option:checked { font-weight: bold; }
     height: 658px;
 }
 
+/* infowindow */
+.label {
+    font-family: Oswald;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.info {
+    text-align: right;
+    width: 290.31px;
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.infoImg {
+    text-align: left;
+}
+
 footer { margin-top: -4%; }
 
 .footer-pamats { background-color: unset; }

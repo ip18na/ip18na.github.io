@@ -375,14 +375,14 @@
     }
 }
 
-#thumbnail {   
+.thumbnail {   
     margin-top: 1.5%;
     margin-left: 16.6%;
     width: 66.716%;
 }
 
 @media (max-width: 900px) {
-    #thumbnail {
+    .thumbnail {
         margin-top: 2.5%;
         margin-left: 10.6%;
         width: 79.167%;
@@ -390,10 +390,18 @@
 }
 
 @media (max-width: 500px) {
-    #thumbnail {
+    .thumbnail {
         margin-left: 6.6%;
         width: 87.188%;
     }
+}
+
+#video-player {
+    display: none;
+    height: 40vw;
+    border: 0;
+    border: none;
+    overflow: hidden;
 }
 
 #play {

@@ -31,6 +31,15 @@
     .sapnu-vid { margin-top: -1.4%;  }
 }
 
+#video-player {
+    display: none;
+    width: 100%;
+    height: 56vw;
+    border: 0;
+    border: none;
+    overflow: hidden;
+}
+
 
 #thumbnail { width: 100%; }
 
