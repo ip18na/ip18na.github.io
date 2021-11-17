@@ -56,8 +56,12 @@
       <div class="video-overlay" id="toggle-vid">
         <input type="image" src="assets/img/close-vid.png" id="close-vid" onclick="closeVid()" alt="Aizvērt video">
         <div class="picked-video">
-          <video poster="assets/img/br-meita-thumbnail.png" id="thumbnail"></video>
-          <input type="image" name="play" src="assets/img/play.png" id="play" alt="play">
+          <video poster="assets/img/br-meita-thumbnail.png" class="thumbnail" id="thumbnail"></video>
+		  <iframe class="picked-video thumbnail" id="video-player" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FsparkleheartLV%2Fvideos%2F2085262408449994%2F&show_text=false&width=560&t=0" 
+             scrolling="no" frameborder="0" allowfullscreen="true" 
+             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true">
+          </iframe>
+          <input type="image" name="play" src="assets/img/play.png" id="play" onclick="playVideo()" alt="play">
           <p class="video-name">Arta Balode</p>
         </div>
       </div>
@@ -303,7 +307,7 @@
 						<a href="#Rekviziti" class="kontaktinformacija" id="rekviziti">Skatīt rekvizītus</a>
 						<input type="image" src="assets/img/facebook.png" class="media" alt="Facebook">
 						<input type="image" src="assets/img/instagram.png" class="media" alt="Instagram">
-						<br> 
+						<br>
 						<a href="#privatuma_politika" id="privatuma-politika">Privātuma politika</a>
 					</div> 
 				</div> 

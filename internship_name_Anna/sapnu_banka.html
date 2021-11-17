@@ -49,8 +49,14 @@
       <h1 class="banka-title">SAPŅU BANKA</h1>
       <div class="sapnu-vid">
         <video poster="assets/img/sapnu_bankas_video.jpg" id="thumbnail"></video>
-        <input type="image" name="play" src="assets/img/play.png" id="play" alt="play">
+        <iframe class="sapnu-vid" id="video-player" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FsparkleheartLV%2Fvideos%2F2085262408449994%2F&show_text=false&width=560&t=0" 
+        scrolling="no" frameborder="0" allowfullscreen="true" 
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true">
+        </iframe>
+        <input type="image" name="play" src="assets/img/play.png" id="play" onclick="playVideo()" alt="play">
       </div>
+
+
 
       <div class="merki">
         <h2 class="sec-title">MĒŖĶIS</h2>

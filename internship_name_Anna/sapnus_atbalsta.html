@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/atbalsta_style.css">
     <script src="https://maps.googleapis.com/maps/api/js"></script>
+		<script src="https://bitbucket.org/petto/google-maps-utility-library-v3/raw/d5eac62c3a0eadfc724117f5f61e7587fe586c33/infobubble/src/infobubble.js"></script>
     <script src="assets/js/theme.js"></script>
   </head>
   <body>
@@ -91,13 +92,61 @@
 
       <!--Karte-->
       <div id="map"></div>
+
+			<!--Javascript failā neaizgāja-->
       <script>
-          var mapCanvas = document.getElementById("map");
-          var mapOptions = {
-              center: new google.maps.LatLng(56.9,  24.1), zoom: 15
-          }
-          var map = new google.maps.Map(mapCanvas, mapOptions);
-      </script> <!--Javascript failā neaizgāja-->
+
+					var firstPos = new google.maps.LatLng(56.946285, 24.105078);
+					var markPos2 = new google.maps.LatLng(56.935285, 24.103078);
+					var markPos3 = new google.maps.LatLng(56.964285, 24.113078);
+					var mapOptions = {
+						zoom: 13,
+						center: firstPos,
+					}
+					var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+					
+					var marker = new google.maps.Marker({
+						position: firstPos,
+						icon: 'assets/img/yellow-key.png',
+					});
+
+					var marker2 = new google.maps.Marker({
+						position: markPos2,
+						icon: 'assets/img/yellow-key.png',
+					});
+
+					var marker3 = new google.maps.Marker({
+						position: markPos3,
+						icon: 'assets/img/yellow-key.png',
+					});
+
+					marker.setMap(map);
+					marker2.setMap(map);
+					marker3.setMap(map);
+
+					var infoBubble = new InfoBubble({
+						map: map,
+						content: '<div class="label">AUCH beauty home</div>'+
+						'<div class="info">+371 28361686, +371 23202079 auchbeauty@gmail.com Cēsu iela 20, Rīga</div>'+
+						'<div class="infoImg"><img src="assets/img/AUCHlogo.png"></img></div>',
+						backgroundColor: 'rgba(255, 168, 0, 0.5)',
+						borderRadius: 14,
+						borderColor: 'rgba(255, 168, 0, 0.5)',
+					});
+
+					google.maps.event.addListener(marker, 'click', function() {
+						infoBubble.open(map,marker);
+					});
+
+					google.maps.event.addListener(marker2, 'click', function() {
+						infoBubble.open(map,marker2);
+					});
+
+					google.maps.event.addListener(marker3, 'click', function() {
+						infoBubble.open(map,marker3);
+					});
+
+      </script> 
 
       <!--Fiksēta poga "go up"-->
    <!-- <img src="assets/img/go_up.svg" id="go-up" onclick="scrollUp()" alt="Poga uz augšu"> -->
