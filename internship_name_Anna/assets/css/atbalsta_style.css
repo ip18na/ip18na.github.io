@@ -124,6 +124,10 @@ option:checked { font-weight: bold; }
 
 #sponsors { display: none; }
 
+@media (max-width: 750px) {
+    #sponsors { display: none !important;}
+}
+
 .cafe-name {
     margin-left: 35.5%;
     margin-top: -5%;
