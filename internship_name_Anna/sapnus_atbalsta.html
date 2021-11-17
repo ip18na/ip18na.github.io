@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="assets/css/atbalsta_style.css">
     <script src="https://maps.googleapis.com/maps/api/js"></script>
 		<script src="https://bitbucket.org/petto/google-maps-utility-library-v3/raw/d5eac62c3a0eadfc724117f5f61e7587fe586c33/infobubble/src/infobubble.js"></script>
-    <script src="assets/js/theme.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="assets/js/theme.js"></script>
   </head>
   <body>
 
@@ -95,7 +96,10 @@
 
 			<!--Javascript failā neaizgāja-->
       <script>
-
+				
+					if ($(window).width() < 960) {
+						var mapOptions = {disableDefaultUI: true}
+					}
 					var firstPos = new google.maps.LatLng(56.946285, 24.105078);
 					var markPos2 = new google.maps.LatLng(56.935285, 24.103078);
 					var markPos3 = new google.maps.LatLng(56.964285, 24.113078);
@@ -146,10 +150,11 @@
 						infoBubble.open(map,marker3);
 					});
 
+
       </script> 
 
       <!--Fiksēta poga "go up"-->
-   <!-- <img src="assets/img/go_up.svg" id="go-up" onclick="scrollUp()" alt="Poga uz augšu"> -->
+    <img src="assets/img/go_up.svg" id="go-up" onclick="scrollUp()" alt="Poga uz augšu"> 
 
     <!--Footer-->
     <footer>
